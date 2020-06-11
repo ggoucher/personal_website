@@ -243,14 +243,16 @@ i {
         grid-template-columns: 1fr 2fr;
         column-gap: 5vh;
     }
-    .skills-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 5vh;
-    }
     .class-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 5vh;
+    }
+}
+@media screen and (min-width: 1050px) {
+    .skills-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         column-gap: 5vh;
     }
 }
