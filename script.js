@@ -6,9 +6,9 @@ var mq = true;
 function openNav() {
     mq = window.matchMedia("(min-width: 500px)").matches;
 
-    document.querySelector("nav").style.width = "30vh";
+    document.querySelector("nav").style.width = "32vh";
     if (mq) {
-        document.getElementById("main").style.marginLeft = "30vh";
+        document.getElementById("main").style.marginLeft = "32vh";
     }
 }
 
