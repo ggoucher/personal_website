@@ -40,6 +40,9 @@ h3, nav {
     font-family: 'Gotu', sans-serif;
     font-size: 1.5rem;
 }
+.hidden {
+    display: none;
+}
 /* Alternating Coloring */
 #about-me, #skills, footer, i {
     background-color: #f0d994ff;
