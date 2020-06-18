@@ -248,7 +248,7 @@ footer p {
 }
 @media screen and (min-width: 500px) {
     footer ul li, .skills-grid li {
-        margin: 0 5vh;
+        margin: 5vh;
     }
     h1 {
         font-size: 5rem;
