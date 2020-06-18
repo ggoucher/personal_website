@@ -262,7 +262,7 @@ footer p {
 }
 @media screen and (max-width: 499px) {
     footer li, .skills-grid li i{
-        margin: 0 3vh;
+        margin: 2vh 3vh;
     }
     h1 {
         font-size: 3rem;
